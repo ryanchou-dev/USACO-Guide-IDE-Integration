@@ -6,7 +6,7 @@
 
 	"content_scripts": [{
 		"js": ["js/background.js"],
-		"matches": ["http://www.usaco.org/*"]
+		"matches": ["http://www.usaco.org/*", "http://usaco.org/*"]
 	}],
 
     "permissions": [
