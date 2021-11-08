@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "USACO + Guide IDE Integration",
+    "version": "1.0",
+    "description": "Open USACO Problems in ide.usaco.guide!",
+
+	"content_scripts": [{
+		"js": ["js/background.js"],
+		"matches": ["http://www.usaco.org/*"]
+	}],
+
+    "permissions": [
+        "tabs"
+    ]
+}
